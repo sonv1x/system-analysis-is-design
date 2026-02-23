@@ -1,14 +1,19 @@
-# Practical Work 3
-SSH Key Configuration
+# Практична робота 3  
+## Налаштування SSH-ключів
 
-## Screenshots:
+У ході виконання практичної роботи було:
 
-1. ssh-keys-folder.png  
-   Screenshot showing generated SSH keys in ~/.ssh directory.
+1. Перевірено підключення до GitHub через SSH.
+2. Переглянуто вміст папки ~/.ssh.
+3. Додано SSH-ключ до GitHub.
 
-2. ssh-connection-test.png  
-   Screenshot of successful SSH authentication test using:
-   ssh -T git@github.com
+## Скріншоти
 
-3. github-ssh-keys.png  
-   Screenshot of added SSH key in GitHub account settings.
+### 1. Перевірка SSH-з'єднання
+Файл: 01-ssh-connection-test.png
+
+### 2. Вміст папки ~/.ssh
+Файл: 02-ssh-keys-folder.png
+
+### 3. SSH-ключі в GitHub
+Файл: 03-github-ssh-keys.png
