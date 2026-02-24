@@ -50,4 +50,4 @@ sequenceDiagram
     end
 
     API-->>Librarian: Підтвердження: Видача зафіксована  
-    
+```
