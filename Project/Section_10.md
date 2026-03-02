@@ -85,4 +85,4 @@ function authorizeRole(roles) {
 }
 ```
 
-![Authentication Logic](./images/auth_logic.jpg)
+![Authentication Logic](../images/auth_logic.jpg)
