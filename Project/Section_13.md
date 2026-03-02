@@ -65,4 +65,4 @@ if (availableCopy) {
 }
 ```
 
-![Librarian Issue Form](./images/librarian_issue.png)
+![Librarian Issue Form](../images/librarian_issue.png)
