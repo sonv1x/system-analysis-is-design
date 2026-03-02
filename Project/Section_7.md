@@ -1,12 +1,12 @@
 ## Розділ 7. Побудова моделі даних
 
-**7.1. Основні сутності та атрибути**
+### 7.1. Основні сутності та атрибути
 * **Users**: `user_id` (PK), `full_name`, `email`, `role`.
 * **Books**: `book_id` (PK), `title`, `author`, `isbn`.
 * **Inventory_Items**: `item_id` (PK), `book_id` (FK), `status` (Available, Reserved, Issued).
 * **Loans**: `loan_id` (PK), `user_id` (FK), `item_id` (FK), `issue_date`, `due_date`.
 
-**7.2. ER-діаграма**
+### 7.2. ER-діаграма
 
 ```mermaid
  erDiagram
@@ -70,4 +70,4 @@ module.exports = (sequelize, DataTypes) => {
 };
 ```
 
-![ER Diagram](./images/er_diagram.png)
+![ER Diagram](../images/er_diagram.png)
